@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/layout_margin"
+    android:paddingBottom="@dimen/layout_margin">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/artistIcon"
+        android:layout_alignTop="@+id/artistIcon"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:id="@+id/artistName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/artistIcon"
+        android:layout_toEndOf="@+id/artistIcon"
+        android:layout_marginLeft="@dimen/text_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:id="@+id/genre"
+        android:layout_alignBottom="@+id/artistIcon"
+        android:layout_alignLeft="@+id/artistName"
+        android:layout_alignStart="@+id/artistName"
+        android:layout_below="@id/artistName"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rightArrow"
+        android:src="@drawable/icon_right_arrow"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

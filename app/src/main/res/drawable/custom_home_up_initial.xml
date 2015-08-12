@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item android:right="10dp">
+        <bitmap android:src="@drawable/icon_home_up"
+                android:gravity="center"
+                android:antialias="true"
+                />
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="24dp" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+-->
+    <item android:drawable="@android:color/transparent"
+        android:left="-10dp" />
+
+</layer-list>

@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <item name="android:homeAsUpIndicator">@drawable/custom_home_up</item>
+	</style>
+
+    <style name="AppHomeTheme" parent="AppBaseTheme">
+        <item name="homeAsUpIndicator">@drawable/custom_home_up_initial</item>
+    </style>
+</resources>
